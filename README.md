@@ -8,6 +8,10 @@ https://derflatulator.github.io/knockout-scrollbar/demo/
 # usage
 
 ```html
+<!-- requires perfect-scrollbar.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.6.12/css/perfect-scrollbar.min.css" />
+
+<!-- use the `scroll` binding -->
 <div data-bind="scroll: {x: false, y: true}">
   Some content...
 </div>
