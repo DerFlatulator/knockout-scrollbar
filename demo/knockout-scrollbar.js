@@ -1,0 +1,1 @@
+../dist/knockout-scrollbar.js
