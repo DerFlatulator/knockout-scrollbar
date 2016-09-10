@@ -1,6 +1,6 @@
 {
   "name": "knockout-scrollbar",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "perfect-scrollbar binding for knockout.js",
   "main": "binding.js",
   "scripts": {
@@ -28,7 +28,7 @@
     "perfect-scrollbar": "^0.6.12"
   },
   "peerDependencies": {
-    "knockout": "^3.4.0"    
+    "knockout": "^3.4.0"
   },
   "devDependencies": {
     "browserify": "^13.1.0"
