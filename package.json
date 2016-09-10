@@ -4,6 +4,7 @@
   "description": "perfect-scrollbar binding for knockout.js",
   "main": "binding.js",
   "scripts": {
+    "build": "browserify -e binding.js -x knockout -o dist/knockout-scrollbar.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,7 +25,12 @@
   "homepage": "https://github.com/derflatulator/knockout-scrollbar#readme",
   "dependencies": {
     "css-element-queries": "^0.3.2",
-    "knockout": "^3.4.0",
     "perfect-scrollbar": "^0.6.12"
+  },
+  "peerDependencies": {
+    "knockout": "^3.4.0"    
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0"
   }
 }
