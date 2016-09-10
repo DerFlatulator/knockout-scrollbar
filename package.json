@@ -1,0 +1,30 @@
+{
+  "name": "knockout-scrollbar",
+  "version": "0.0.1",
+  "description": "perfect-scrollbar binding for knockout.js",
+  "main": "binding.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derflatulator/knockout-scrollbar.git"
+  },
+  "keywords": [
+    "knockout",
+    "scrollbar",
+    "perfect-scrollbar",
+    "binding"
+  ],
+  "author": "Lucas Azzola <Lucas.Azzola@iress.com.au>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derflatulator/knockout-scrollbar/issues"
+  },
+  "homepage": "https://github.com/derflatulator/knockout-scrollbar#readme",
+  "dependencies": {
+    "css-element-queries": "^0.3.2",
+    "knockout": "^3.4.0",
+    "perfect-scrollbar": "^0.6.12"
+  }
+}
