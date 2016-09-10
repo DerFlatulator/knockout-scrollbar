@@ -7,17 +7,32 @@ perfect-scrollbar binding for knockout.js
 > to performantly determine whenever the dimensions of the scroll target change.
 > This means there is no need to programmatically call an update function.
 
-# demo
+## demo
 
 https://derflatulator.github.io/knockout-scrollbar/demo/
 
-# usage
+## install
+
+```sh
+npm i -S knockout-scrollbar
+```
+
+## import
+
+If you're using a bundler, just `require('knockout-scrollbar')`.
+
+Otherwise you can include `node_modules/knockout-scrollbar/dist/knockout-scrollbar.js` with a script tag,
+which bundles in `perfect-scrollbar` and `ResizeSensor.js`. `ko` is assumed to be a global.
+
+You'll need to separately include `perfect-scrollbar.css` though:
 
 ```html
-<!-- requires perfect-scrollbar.css -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.6.12/css/perfect-scrollbar.min.css" />
+```
 
-<!-- use the `scroll` binding -->
+## use
+
+```html
 <div data-bind="scroll: {x: false, y: true}">
   Some content...
 </div>
