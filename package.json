@@ -1,6 +1,6 @@
 {
   "name": "knockout-scrollbar",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "perfect-scrollbar binding for knockout.js",
   "main": "binding.js",
   "scripts": {
